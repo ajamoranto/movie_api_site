@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  padding-top: 70px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.clear {
+  display: inline-block;
+  float: left;
+}
+
+.rows {
+  display: inline-block;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
